@@ -21,6 +21,10 @@ class AccordionDemoCtrl implements ScopeAware {
   Scope scope;
   bool oneAtATime = true;
   bool isOpen = false;
+
+  String valueInPanelHeading = "I am inserted in panel heading via model.";
+  String valueInPanelBody = "I am inserted in panel body via model.";
+
 }
 
 
